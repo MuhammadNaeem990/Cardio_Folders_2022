@@ -1,0 +1,193 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:alertDialogTheme">@style/Theme.AppCompat.Light.Dialog.Alert</item>
+
+    </style>
+
+    <!--    FOR SM T505 TABLET-->
+    <style name="AlertDialog" parent="Base.Theme.AppCompat.Light.Dialog">
+        <item name="android:textColor">#0C4DA2</item>
+        <item name="android:textStyle">bold</item>
+       <!-- <item name="android:headerDividersEnabled">true</item>
+        <item name="android:typeface">normal</item>-->
+<!--        <item name="android:background">#0C4DA2</item>-->
+        <!--        <item name="android:textColorPrimary">@color/colorAccent</item>-->
+    </style>
+
+
+<!--    FOR SM T561 TABLET-->
+    <style name="AlertDialog1" parent="Base.Theme.AppCompat.Light.Dialog">
+        <item name="android:textColor">#0C4DA2</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:headerDividersEnabled">true</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:background">#FFFF</item>
+        <!--        <item name="android:textColorPrimary">@color/colorAccent</item>-->
+    </style>
+
+
+
+    <style name="TabText">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="DefaultButton" parent="@android:style/Widget.Button">
+        <item name="android:minHeight">40dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@drawable/bg</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:minWidth">200dp</item>
+    </style>
+
+    <style name="fragment_text">
+        <item name="android:textColor">#ffacacac</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="QText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="ProductA_optionsMenu" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/ProductA_color</item>
+    </style>
+
+   <!-- <style name="ProductA_toolbar"  parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:background">@color/ProductA_color</item>
+
+    </style>-->
+
+    <style name="ProductB_optionsMenu" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/ProductB_color</item>
+    </style>
+
+    <style name="ProductC_optionsMenu" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/ProductC_color</item>
+    </style>
+
+    <style name="ProductD_optionsMenu" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/ProductD_color</item>
+    </style>
+
+
+    <style name="ProductE_optionsMenu" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/ProductE_color</item>
+    </style>
+
+    <style name="ProductF_optionsMenu" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/ProductF_color</item>
+    </style>
+
+    <style name="ProductG_optionsMenu" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/ProductG_color</item>
+    </style>
+
+
+    <style name="ProductH_optionsMenu" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/ProductH_color</item>
+    </style>
+
+    <style name="ProductI_optionsMenu" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/ProductI_color</item>
+    </style>
+
+    <style name="ProductJ_optionsMenu" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/ProductJ_color</item>
+    </style>
+
+    <style name="ProductK_optionsMenu" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/ProductK_color</item>
+    </style>
+
+
+    <style name="ProductL_optionsMenu" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/ProductL_color</item>
+    </style>
+
+
+    <style name="ProductM_optionsMenu" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/ProductM_color</item>
+    </style>
+
+
+
+
+
+<style name="Product_logout" parent="Theme.AppCompat.Light.NoActionBar">
+<item name="android:textSize">18sp</item>
+<item name="android:textStyle">normal</item>
+<item name="android:typeface">normal</item>
+<item name="android:textColor">@color/black</item>
+<item name="android:background">@color/white</item>
+</style>
+
+
+</resources>

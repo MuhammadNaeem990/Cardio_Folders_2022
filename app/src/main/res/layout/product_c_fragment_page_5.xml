@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+<!--
+    <ImageView
+        android:id="@+id/aloc_id_page5_image0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/aloc_page2_image1"
+        />
+    &lt;!&ndash; &ndash;&gt;
+
+    <ImageView
+        android:id="@+id/aloc_id_page5_image1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/aloc_page5_image1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"/>
+    &lt;!&ndash; &ndash;&gt;
+
+
+    <ImageView
+        android:id="@+id/aloc_id_page5_image2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="500dp"
+        android:src="@drawable/aloc_page5_image2" />
+    &lt;!&ndash; &ndash;&gt;
+
+
+    <ImageView
+        android:id="@+id/aloc_id_page5_image3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="630dp"
+        android:src="@drawable/aloc_page5_image3" />
+    &lt;!&ndash; &ndash;&gt;
+
+
+    <ImageView
+        android:id="@+id/aloc_id_page5_image4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="815dp"
+        android:src="@drawable/aloc_page5_image4" />
+    &lt;!&ndash;  &ndash;&gt;
+
+
+    <ImageView
+        android:id="@+id/aloc_id_page5_image5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="970dp"
+        android:src="@drawable/aloc_page5_image5" />
+    &lt;!&ndash; &ndash;&gt;
+
+
+    <ImageView
+        android:id="@+id/aloc_id_page5_image6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/aloc_page5_image6"
+        android:layout_marginTop="1100dp"
+        android:layout_marginLeft="35dp"/>-->
+    <!-- -->
+
+
+
+
+</RelativeLayout>

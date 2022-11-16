@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.folder.example.dell.Cardio_Folder_2022">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/boschlogo_new"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.SwipeViewPager_Activities.Animated_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.SwipeViewPager_Activities.Static_Page_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <!--
+   <activity android:name=".Tab_Layout.TabLayout_Activity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                 <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        -->
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.SwipeViewPager_Activities.Speciality.Admin_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.Activities.ZoomActivity3"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.SwipeViewPager_Activities.Speciality.Penicillin_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.SwipeViewPager_Activities.Speciality.Spc_ABC_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.SwipeViewPager_Activities.Speciality.Spc_BC_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.SwipeViewPager_Activities.Speciality.Spc_AC_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.SwipeViewPager_Activities.Speciality.Spc_AB_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.SwipeViewPager_Activities.Speciality.Spc_C_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.SwipeViewPager_Activities.Speciality.Spc_B_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.SwipeViewPager_Activities.Speciality.Spc_A_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.SwipeViewPager_Activities.DetailActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" /> <!-- Splash Activity -->
+
+
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.Activities.splash_activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+
+
+
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.Activities.LoginActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+              <!--  <category android:name="android.intent.category.DEFAULT" />-->
+                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.Activities.ZoomActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.Activities.ZoomActivity2"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" /> <!-- Manifest Static -->
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.Activities_Static.MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+               <!--  <category android:name="android.intent.category.LAUNCHER" />-->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.Activities_Static.ProductB_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.Activities_Static.ProductC_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.Activities_Static.ProductD_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.Activities_Static.ProductE_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.Activities_Static.ProductF_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.Activities_Static.ProductG_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+
+
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.Activities_Static.ProductH_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.Activities_Static.ProductI_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" /> <!-- Manifest Animated -->
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.Activities_Animated.ProductA_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+               <!--  <category android:name="android.intent.category.LAUNCHER" />-->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.Activities_Animated.ProductB_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.Activities_Animated.ProductC_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.Activities_Animated.ProductD_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.Activities_Animated.ProductE_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.Activities_Animated.ProductF_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.Activities_Animated.ProductG_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.Activities_Animated.ProductH_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.Activities_Animated.ProductI_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.Activities_Animated.ProductJ_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.Activities_Animated.ProductK_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.Activities_Animated.ProductL_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="app.folder.example.dell.Cardio_Folder_2022.Activities_Animated.ProductM_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Importance of Product" >
+        <menu>
+            <item android:id="@+id/C_page_1" android:title="Page 1" android:icon="@drawable/ic_dashboard_black_24dp"/>
+            <item android:id="@+id/C_page_2" android:title="Page 2" android:icon="@drawable/ic_dashboard_black_24dp"/>
+            <item android:id="@+id/C_page_3" android:title="Page 3" android:icon="@drawable/ic_dashboard_black_24dp"/>
+            <item android:id="@+id/C_page_4" android:title="Page 4" android:icon="@drawable/ic_dashboard_black_24dp"/>
+
+
+        </menu>
+    </item>
+    <item android:id="@+id/home_c"  android:title="Complete Product" android:icon="@drawable/ic_dashboard_black_24dp"/>
+</menu>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".Activities.ZoomActivity2">
+
+ <com.otaliastudios.zoom.ZoomLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:scrollbars="vertical|horizontal"
+     app:overScrollHorizontal="true"
+     app:overScrollVertical="true"
+     app:overPinchable="true"
+     app:horizontalPanEnabled="true"
+     app:verticalPanEnabled="true"
+     app:zoomEnabled="true"
+     app:minZoom="1"
+     app:minZoomType="zoom"
+     app:maxZoom="3.0"
+     app:maxZoomType="zoom"
+     app:hasClickableChildren="false">
+
+  <ImageView
+
+
+      android:background="#fff"
+      android:id="@+id/calamox_c_page8_image5"
+      android:layout_centerHorizontal="true"
+
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" />
+
+ </com.otaliastudios.zoom.ZoomLayout>
+<!-- android:src="@drawable/calamox_c_page8_image5"-->
+
+</RelativeLayout>

@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?><!--<android.support.constraint.ConstraintLayout-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginactivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.LoginActivity">
+    <!-- android:background="@drawable/back_login"-->
+
+
+
+    <!--
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout_top"
+            android:background="#0C4DA1">
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#0C4DA1">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/ic_menu_black_24dp"
+                    android:id="@+id/title_bar_left_menu"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp"
+                    android:text="Home"
+                    android:textSize="28sp"
+                    android:textColor="#fff"
+                    android:layout_gravity="center"/>
+
+                <Button
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/ic_menu_black_24dp"
+                    android:id="@+id/title_bar_right_menu"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginRight="10dp"/>
+
+            </FrameLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#0C4DA1"/>
+
+        </LinearLayout>
+
+    -->
+
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <!-- <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:layout_weight="1.5"
+             android:background="@drawable/back_login"/>-->
+        <!--
+
+                <ImageView
+                    android:id="@+id/bosch_login_id_image0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bosch_login_image0"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:scaleType="fitXY"
+                    app:layout_constraintVertical_bias="0.0" />
+        -->
+
+
+        <ImageView
+            android:id="@+id/bosch_login_background_6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/back_login"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <!--       <ImageView
+               android:id="@+id/bosch_login_id_image3"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/bosch_login_image3"
+               app:layout_constraintBottom_toBottomOf="@+id/bosch_login_id_image2"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toTopOf="parent" />-->
+
+
+
+
+        <!--  <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:background="@color/colorPrimary" />-->
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="450dp"
+            android:layout_height="350dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:paddingLeft="200dp"
+            android:paddingRight="200dp"
+            android:src="@drawable/boschlogo_new" />
+
+    </LinearLayout>
+-->
+
+    <!--
+        <android.support.v7.widget.Toolbar
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/toolbar_activity2"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/Product_logout"
+            />
+    -->
+
+
+    <TextView
+        android:id="@+id/id_help_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:padding="20dp"
+        android:text="Help ?"
+        android:textColor="#0C4DA2"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!--  <Button
+          android:id="@+id/helpbutton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Help"
+          android:paddingLeft="740dp"
+          android:paddingTop="10dp"
+          android:textSize="20dp"
+          android:textColor="#000000"
+          android:background="@color/transparent"
+          android:layout_gravity="right|center_vertical"
+          android:layout_marginRight="10dp"/>
+  -->
+
+    <!--    android:layout_centerHorizontal="true"
+        android:layout_gravity="center"-->
+    <!--    android:background="@drawable/ic_menu_black_24dp"-->
+    <!--    android:gravity="center_horizontal"-->
+
+
+    <LinearLayout
+        android:id="@+id/loginLayout"
+        android:layout_width="600dp"
+        android:layout_height="500dp"
+        android:layout_marginLeft="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="@color/transparent"
+        android:baselineAligned="true"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emp ID"
+            android:textStyle="bold"
+            android:textColor="#0C4DA2"
+            android:textSize="20dp"/>
+
+
+        <EditText
+            android:textStyle="bold"
+            android:id="@+id/edt_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0C4DA2"
+            android:inputType="textEmailAddress"
+            android:shadowColor="#0C4DA2"
+            android:singleLine="true"
+
+
+            />
+        <!--        android:drawableLeft="@drawable/ic_person_white_28dp"-->
+        <!--android:hint="Emp ID"-->
+        <!-- android:layout_marginTop="50dp"-->
+
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textColor="#0C4DA2"
+            android:textSize="20dp"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:passwordToggleEnabled="true">
+
+                    <EditText
+                        android:textStyle="bold"
+                        android:id="@+id/edt_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#0C4DA2"
+                        android:inputType="textPassword"
+                        android:singleLine="true" />
+
+
+                </android.support.design.widget.TextInputLayout>
+
+
+                <!--    <EditText
+                        android:id="@+id/edt_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_lock_white_28dp"
+                        android:inputType="textPassword"
+                        android:textColor="#0C4DA2" />-->
+
+
+
+                <CheckBox
+                    android:textStyle="bold"
+                    android:id="@+id/saveLoginCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="150dp"
+                    android:text="Remember me?"
+                    android:textSize="15dp"
+                    android:textColor="#0C4DA2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <!-- <TextView
+                     android:textStyle="bold"
+                     android:layout_marginTop="80dp"
+                     android:layout_marginLeft="200dp"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="MAC Address :"
+                     android:textColor="#0C4DA2"
+                     android:textSize="20dp"/>
+ -->
+
+
+                <TextView
+                    android:id="@+id/macaddress_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="80dp"
+                    android:text=" MAC Address"
+                    android:textColor="#0C4DA2"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+
+                <!--                android:background="@drawable/textview_border"-->
+                <!--               app:layout_constraintEnd_toEndOf="parent"
+                               app:layout_constraintStart_toStartOf="parent"-->
+                <!-- android:layout_alignParentRight="true"-->
+
+
+
+                <Button
+                    android:id="@+id/btn_login"
+                    android:background="@drawable/login_button_bk"
+                    style="@style/DefaultButton"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="220dp"
+                    android:text="Login" />
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+        <!-- <CheckBox
+             android:id="@+id/saveLoginCheckBox"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="8dp"
+             android:layout_marginEnd="629dp"
+             android:layout_marginStart="75dp"
+             android:text="Remember me?"
+             app:layout_constraintBottom_toTopOf="@+id/btn_login"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toBottomOf="@+id/password_input_layout" />-->
+
+    </LinearLayout>
+
+    <!--
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="750dp">
+             app:layout_constraintTop_toBottomOf="@+id/password_input_layout";
+        </LinearLayout>-->
+
+
+    <!--    app:layout_constraintTop_toBottomOf="@+id/password_input_layout"-->
+
+
+    <!-- <android.support.design.widget.TextInputLayout
+         android:id="@+id/email_input_layout"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:layout_marginEnd="32dp"
+         android:layout_marginStart="32dp"
+         android:layout_marginTop="440dp"
+         android:paddingLeft="32dp"
+         android:paddingRight="32dp"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent">
+
+         <EditText
+             android:id="@+id/edt_email"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:hint="Username"
+             android:inputType="textEmailAddress"
+             android:singleLine="true" />
+
+     </android.support.design.widget.TextInputLayout>-->
+
+    <!-- <android.support.design.widget.TextInputLayout
+         android:id="@+id/password_input_layout"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginEnd="32dp"
+         android:layout_marginStart="32dp"
+         android:layout_marginTop="32dp"
+         android:paddingLeft="32dp"
+         android:paddingRight="32dp"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/email_input_layout">
+
+         <EditText
+             android:id="@+id/edt_password"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:hint="Password"
+             android:inputType="textPassword"
+             android:singleLine="true" />
+     </android.support.design.widget.TextInputLayout>-->
+
+
+    <!--   <Button
+           android:id="@+id/btn_login"
+           style="@style/DefaultButton"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_horizontal"
+           android:layout_marginEnd="32dp"
+           android:layout_marginStart="32dp"
+           android:layout_marginTop="100dp"
+           android:text="Login"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/password_input_layout" />-->
+
+
+</RelativeLayout>

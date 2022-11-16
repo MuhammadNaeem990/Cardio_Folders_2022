@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item android:id="@+id/product_I_page1"
+        android:title="Page 1"
+        app:showAsAction="never"/>
+    <item android:id="@+id/product_I_page2"
+        android:title="Page 2"
+        app:showAsAction="never"/>
+    <item android:id="@+id/product_I_page3"
+        android:title="Page 3"
+        app:showAsAction="never"/>
+    <item android:id="@+id/product_I_page4"
+        android:title="Page 4"
+        app:showAsAction="never"/>
+    <item android:id="@+id/product_I_page5"
+        android:title="Page 5 "
+        app:showAsAction="never"/>
+    <item android:id="@+id/product_I_page6"
+        android:title="Page 6 "
+        app:showAsAction="never"/>
+    <item android:id="@+id/product_I_page7"
+        android:title="Page 7 "
+        app:showAsAction="never"/>
+    <item android:id="@+id/product_I_page8"
+        android:title="Page 8 "
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/product_I_Complete"
+        android:title="Complete Vinjec"
+        app:showAsAction="never"/>
+
+
+
+
+</menu>

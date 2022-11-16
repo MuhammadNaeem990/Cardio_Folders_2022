@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/zezot_page10"
+    tools:context=".ProductE_Fragments.ProductE_Fragment_page_Ten">
+
+    <ImageView
+        android:id="@+id/zezot_id_page10_image0"
+        android:scaleType="fitXY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       />
+
+<!--    android:src="@drawable/zezot_page2_image1"-->
+
+  <ImageView
+      android:id="@+id/zezot_id_page10_image1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="380dp"/>
+
+<!--    android:src="@drawable/zezot_page10_image1"-->
+
+    <ImageView
+        android:id="@+id/zezot_id_page10_image2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="430dp"/>
+
+<!--    android:src="@drawable/zezot_page10_image2"-->
+
+
+    <ImageView
+        android:id="@+id/zezot_id_page10_image3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="500dp"/>
+
+<!--    android:src="@drawable/zezot_page10_image3"-->
+
+    <ImageView
+        android:id="@+id/zezot_id_page10_image4"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="580dp"/>
+
+<!--    android:src="@drawable/zezot_page10_image4"-->
+
+
+    <ImageView
+        android:id="@+id/zezot_id_page10_image5"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+        android:layout_marginLeft="45dp"
+      android:layout_marginTop="650dp"/>
+
+<!--    android:src="@drawable/zezot_page10_image5"-->
+
+
+    <ImageView
+        android:id="@+id/zezot_id_page10_image6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="710dp"/>
+
+<!--    android:src="@drawable/zezot_page10_image6"-->
+
+     <ImageView
+         android:id="@+id/zezot_id_page10_image7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="920dp"/>
+
+<!--    android:src="@drawable/zezot_page10_image7"-->
+
+
+    <ImageView
+        android:id="@+id/zezot_id_page10_image8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1000dp"/>
+
+<!--    android:src="@drawable/zezot_page10_image8"-->
+
+
+</RelativeLayout>

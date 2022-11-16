@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/product_L_page1"
+        android:title="Folder"
+        app:showAsAction="never"/>
+    <!--  <item android:id="@+id/product_D_page2"
+           android:title="Folder"
+           app:showAsAction="never"/>-->
+    <!-- <item android:id="@+id/product_D_page3"
+          android:title="Page 3"
+          app:showAsAction="never"/>
+      <item android:id="@+id/product_D_page4"
+          android:title="Page 4"
+          app:showAsAction="never"/>
+      <item android:id="@+id/product_D_page5"
+          android:title="Page 5 "
+          app:showAsAction="never"/>
+      <item android:id="@+id/product_D_page6"
+          android:title="Page 6 "
+          app:showAsAction="never"/>
+  <item android:id="@+id/product_D_page7"
+          android:title="Page 7 "
+          app:showAsAction="never"/>
+      <item android:id="@+id/product_D_page8"
+          android:title="Page 8 "
+          app:showAsAction="never"/>
+
+   <item android:id="@+id/product_D_page9"
+          android:title="Page 9 "
+          app:showAsAction="never"/>
+
+      <item android:id="@+id/product_D_page10"
+          android:title="Page 10 "
+          app:showAsAction="never"/>
+
+      <item android:id="@+id/product_D_page11"
+          android:title="Page 11 "
+          app:showAsAction="never"/>-->
+
+    <!--   <item android:id="@+id/product_D_Complete"
+           android:title="Complete Cilapen"
+           app:showAsAction="never"/>
+   -->
+
+
+
+</menu>
