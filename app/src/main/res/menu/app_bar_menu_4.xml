@@ -19,29 +19,10 @@
         android:id="@+id/product_D_page4"
         android:title="Page 4"
         app:showAsAction="never" />
-    <item
-        android:id="@+id/product_D_page5"
-        android:title="Page 5 "
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/product_D_page6"
-        android:title="Page 6 "
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/product_D_page7"
-        android:title="Page 7 "
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/product_D_page8"
-        android:title="Page 8 "
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/product_D_page9"
-        android:title="Page 9 "
-        app:showAsAction="never" />
+
     <item
         android:id="@+id/product_D_Complete"
-        android:title="Complete Linzox"
+        android:title="Complete Corace"
         app:showAsAction="never" />
     <!--
 

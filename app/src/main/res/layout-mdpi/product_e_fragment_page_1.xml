@@ -7,36 +7,29 @@
     android:layout_height="match_parent"
     android:background="#fff"
     android:orientation="vertical"
-    android:id="@+id/cebac_page1">
-    <!--  android:id="@+id/amplus_page1"-->
+
+    >
 
 
 
-  <!--  <ImageView
 
+
+    <ImageView
+        android:id="@+id/orva_page1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:src="@drawable/orva_page1"
         android:scaleType="fitXY"
-        android:src="@drawable/cebosh_page1_image1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />-->
+        />
 
     <!--  <VideoView
-          android:id="@+id/qlena_video"
-          android:layout_width="fill_parent"
-          android:layout_height="fill_parent"
-          android:layout_alignParentLeft="true"
-          android:layout_alignParentTop="true"
-          android:layout_alignParentRight="true"
-          android:layout_alignParentBottom="true"
-          android:layout_centerVertical="true"
+          android:id="@+id/calamox_a_video"
+          android:layout_width="0dp"
+          android:layout_height="0dp"
           app:layout_constraintBottom_toBottomOf="parent"
           app:layout_constraintEnd_toEndOf="parent"
           app:layout_constraintStart_toStartOf="parent"
-          app:layout_constraintTop_toTopOf="parent" />-->
-
-
+          app:layout_constraintTop_toTopOf="parent" />
+  -->
 
 </android.support.constraint.ConstraintLayout>

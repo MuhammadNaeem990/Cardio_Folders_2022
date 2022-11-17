@@ -60,9 +60,9 @@ class Spc_A_Activity : AppCompatActivity() {
 
         models?.add(Model(R.drawable.boschempa_page1_image1, R.drawable.boschempa_title_text, "  "))
         models?.add(Model(R.drawable.rova_page1, R.drawable.rova_title_text, "  "))
-        //models?.add(Model(R.drawable.cebosh_page1_image1, R.drawable.cebosch_title_text, "  "))
-       // models?.add(Model(R.drawable.somelinz_page1_image1, R.drawable.somelinz_title_text, "  "))
-       // models?.add(Model(R.drawable.linzox_page1_image1, R.drawable.linzox_title_text, "  "))
+        models?.add(Model(R.drawable.rova_page1, R.drawable.cebosch_title_text, "  "))
+        models?.add(Model(R.drawable.corace_page1, R.drawable.corace_title_text, "  "))
+        models?.add(Model(R.drawable.orva_page1, R.drawable.orva_title_text, "  "))
        // models?.add(Model(R.drawable.ovita_page1_image1, R.drawable.ovita_title_text, "  "))
 
         adapterAgg_A = Adapter_Spc_A(models as ArrayList<Model>, this)
@@ -73,9 +73,9 @@ class Spc_A_Activity : AppCompatActivity() {
 
             resources.getColor(R.color.color1),
             resources.getColor(R.color.color2),
-            //resources.getColor(R.color.color3),
-          //  resources.getColor(R.color.color4),
-          //  resources.getColor(R.color.color5)
+            resources.getColor(R.color.color3),
+            resources.getColor(R.color.color4),
+            resources.getColor(R.color.color5)
 
         )
         colors = colors_temp

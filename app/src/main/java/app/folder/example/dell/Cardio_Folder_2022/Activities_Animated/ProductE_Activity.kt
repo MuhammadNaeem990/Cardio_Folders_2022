@@ -120,22 +120,7 @@ class ProductE_Activity : AppCompatActivity() {
                 ).commit()
                 true
             }
-            R.id.product_E_page5 -> {
-                val fragmentTransaction5 = FM!!.beginTransaction()
-                fragmentTransaction5.replace(
-                    R.id.containerView,
-                    ProductE_Fragment_page_Five()
-                ).commit()
-                true
-            }
-            R.id.product_E_page6 -> {
-                val fragmentTransaction6 = FM!!.beginTransaction()
-                fragmentTransaction6.replace(
-                    R.id.containerView,
-                    ProductE_Fragment_page_Six()
-                ).commit()
-                true
-            }
+
 
             R.id.product_E_Complete -> {
                 val fragmentTransaction11 = FM!!.beginTransaction()

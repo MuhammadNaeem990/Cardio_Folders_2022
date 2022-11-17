@@ -30,13 +30,17 @@
     <color name="ProductB_color">#0C4DA2</color> <!--Qzon-->
     <color name="ProductC_color">#209246</color>  <!--Beasy-->
 
-    <color name="ProductD_color">#023238</color>  <!--Zentro-->
-    <color name="ProductK_color">#116559</color>  <!--Cilapen_XDR-->
-    <color name="ProductE_color">#1D005F </color>  <!--Cebac-->
-    <color name="ProductJ_color">#02669D</color>  <!--Cebac_Gynae-->
-    <color name="ProductF_color">#FF0E4EA3</color>  <!--Ticozid-->
+    <color name="ProductD_color">#70BE43</color>  <!--Zentro-->
+    <color name="ProductF_color">#FF0E4EA3</color>
+    <color name="ProductE_color">#762182 </color>
 
-    <color name="ProductG_color">#00AFAA</color>  <!--Bunail-->
+    <color name="ProductG_color">#00AFAA</color>
+    <color name="ProductK_color">#116559</color>  <!--Cilapen_XDR-->
+     <!--Cebac-->
+    <color name="ProductJ_color">#02669D</color>  <!--Cebac_Gynae-->
+    <!--Ticozid-->
+
+    <!--Bunail-->
     <color name="ProductH_color">#16090A</color>  <!--Penro-->
     <color name="ProductI_color">#054F9F</color>  <!--Vinjec-->
 

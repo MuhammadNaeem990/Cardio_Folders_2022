@@ -15,16 +15,11 @@
     <item android:id="@+id/product_E_page4"
         android:title="Page 4"
         app:showAsAction="never"/>
-    <item android:id="@+id/product_E_page5"
-        android:title="Page 5 "
-        app:showAsAction="never"/>
-    <item android:id="@+id/product_E_page6"
-        android:title="Page 6"
-        app:showAsAction="never"/>
+
 
 
     <item android:id="@+id/product_E_Complete"
-        android:title="Complete Cebosh"
+        android:title="Complete Orva"
         app:showAsAction="never"/>
 
 
