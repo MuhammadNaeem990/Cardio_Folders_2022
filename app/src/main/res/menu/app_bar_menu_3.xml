@@ -27,11 +27,19 @@
         android:id="@+id/product_C_page6"
         android:title="Page 6 "
         app:showAsAction="never" />
+    <item
+        android:id="@+id/product_C_page7"
+        android:title="Page 7 "
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/product_C_page8"
+        android:title="Page 8 "
+        app:showAsAction="never" />
 
 
     <item
         android:id="@+id/product_C_Complete"
-        android:title="Complete Aloc"
+        android:title="Complete Caloc-V"
         app:showAsAction="never" />
 
 

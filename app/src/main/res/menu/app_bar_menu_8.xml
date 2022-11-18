@@ -15,35 +15,9 @@
     <item android:id="@+id/product_H_page4"
         android:title="Page 4"
         app:showAsAction="never"/>
-    <item android:id="@+id/product_H_page5"
-        android:title="Page 5 "
-        app:showAsAction="never"/>
-    <item android:id="@+id/product_H_page6"
-        android:title="Page 6 "
-        app:showAsAction="never"/>
-    <item android:id="@+id/product_H_page7"
-        android:title="Page 7 "
-        app:showAsAction="never"/>
-    <item android:id="@+id/product_H_page8"
-        android:title="Page 8 "
-        app:showAsAction="never"/>
-
-
-    <item android:id="@+id/product_H_page9"
-        android:title="Page 9 "
-        app:showAsAction="never"/>
-    <item android:id="@+id/product_H_page10"
-        android:title="Page 10 "
-        app:showAsAction="never"/>
-
 
     <item android:id="@+id/product_H_Complete"
-        android:title="Complete Penro"
+        android:title="Complete Ogrel Plus"
         app:showAsAction="never"/>
-
-
-
-
-
 
 </menu>

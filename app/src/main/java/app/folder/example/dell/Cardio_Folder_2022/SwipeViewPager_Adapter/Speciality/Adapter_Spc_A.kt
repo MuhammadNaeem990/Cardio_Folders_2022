@@ -8,11 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import app.folder.example.dell.Cardio_Folder_2022.Activities_Animated.ProductA_Activity
-import app.folder.example.dell.Cardio_Folder_2022.Activities_Animated.ProductB_Activity
-import app.folder.example.dell.Cardio_Folder_2022.Activities_Animated.ProductC_Activity
-import app.folder.example.dell.Cardio_Folder_2022.Activities_Animated.ProductD_Activity
-import app.folder.example.dell.Cardio_Folder_2022.Activities_Animated.ProductE_Activity
+import app.folder.example.dell.Cardio_Folder_2022.Activities_Animated.*
 import app.folder.example.dell.Cardio_Folder_2022.R
 import app.folder.example.dell.Cardio_Folder_2022.SwipeViewPager_Activities.Model
 
@@ -58,6 +54,15 @@ class Adapter_Spc_A(private val models: List<Model>, private val context: Contex
                 context.startActivity(intent)
             }else if (position == 4) {
                 val intent = Intent(context, ProductE_Activity::class.java)
+                context.startActivity(intent)
+            }else if (position == 5) {
+                val intent = Intent(context, ProductF_Activity::class.java)
+                context.startActivity(intent)
+            }else if (position == 6) {
+                val intent = Intent(context, ProductG_Activity::class.java)
+                context.startActivity(intent)
+            }else if (position == 7) {
+                val intent = Intent(context, ProductH_Activity::class.java)
                 context.startActivity(intent)
             }
         }

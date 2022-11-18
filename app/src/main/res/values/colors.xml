@@ -4,7 +4,6 @@
 
     <color name="colorPrimary1">#79EBFD</color>
 
-
     <color name="colorPrimaryDark">#fff</color>
     <color name="colorPrimaryBackground">#0886c7</color>
     <color name="colorAccent">#375290</color>
@@ -28,20 +27,20 @@
 
     <color name="ProductA_color">#01050E</color> <!--Qumic-->
     <color name="ProductB_color">#0C4DA2</color> <!--Qzon-->
-    <color name="ProductC_color">#209246</color>  <!--Beasy-->
+    <color name="ProductC_color">#11577A</color>  <!--Beasy-->
 
     <color name="ProductD_color">#70BE43</color>  <!--Zentro-->
-    <color name="ProductF_color">#FF0E4EA3</color>
     <color name="ProductE_color">#762182 </color>
+    <color name="ProductF_color">#00A0E3</color>
 
-    <color name="ProductG_color">#00AFAA</color>
+    <color name="ProductG_color">#BF1E2D</color>
     <color name="ProductK_color">#116559</color>  <!--Cilapen_XDR-->
      <!--Cebac-->
     <color name="ProductJ_color">#02669D</color>  <!--Cebac_Gynae-->
     <!--Ticozid-->
 
     <!--Bunail-->
-    <color name="ProductH_color">#16090A</color>  <!--Penro-->
+    <color name="ProductH_color">#EF4C7F</color>  <!--Penro-->
     <color name="ProductI_color">#054F9F</color>  <!--Vinjec-->
 
     <color name="ProductL_color">#116559</color>  <!--cilapen old-->

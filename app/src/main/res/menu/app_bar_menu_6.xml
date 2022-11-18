@@ -19,52 +19,12 @@
         android:id="@+id/product_F_page4"
         android:title="Page 4"
         app:showAsAction="never" />
-    <item
-        android:id="@+id/product_F_page5"
-        android:title="Page 5 "
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/product_F_page6"
-        android:title="Page 6 "
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/product_F_page7"
-        android:title="Page 7 "
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/product_F_page8"
-        android:title="Page 8 "
-        app:showAsAction="never" />
 
-    <item
-        android:id="@+id/product_F_page9"
-        android:title="Page 9 "
-        app:showAsAction="never" />
 
-    <item
-        android:id="@+id/product_F_page10"
-        android:title="Page 10 "
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/product_F_page11"
-        android:title="Page 11 "
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/product_F_page12"
-        android:title="Page 12 "
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/product_F_page13"
-        android:title="Page 13 "
-        app:showAsAction="never" />
 
-    <item
-        android:id="@+id/product_F_page14"
-        android:title="Page 14 "
-        app:showAsAction="never" />
     <item
         android:id="@+id/product_F_Complete"
-        android:title="Complete Ticozid"
+        android:title="Complete Rabosh"
         app:showAsAction="never" />
 
 

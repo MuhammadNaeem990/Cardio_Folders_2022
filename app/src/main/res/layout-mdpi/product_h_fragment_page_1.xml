@@ -6,10 +6,10 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/penro_page1"
-    tools:context="app.folder.example.dell.Speciality_Folder_Third_2020.Product_Fragments_Animated.ProductH_Animated_Fragments.ProductH_Fragment_page_One">
+    tools:context="app.folder.example.dell.Cardio_Folder_2022.Product_Fragments_Animated.ProductH_Animated_Fragments.ProductH_Fragment_page_One">
 
     <VideoView
-        android:id="@+id/penro_video"
+        android:id="@+id/ogrel_plus_video"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_alignParentLeft="true"

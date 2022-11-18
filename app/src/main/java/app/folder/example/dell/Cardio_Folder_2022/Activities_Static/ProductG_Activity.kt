@@ -142,14 +142,7 @@ class ProductG_Activity : AppCompatActivity() {
                 ).commit()
                 true
             }
-            R.id.product_G_page5 -> {
-                val fragmentTransaction5 = FM!!.beginTransaction()
-                fragmentTransaction5.replace(
-                    R.id.containerView,
-                    ProductG_Fragment_page_Five()
-                ).commit()
-                true
-            }
+
             R.id.product_G_Complete -> {
                 val fragmentTransaction12 = FM!!.beginTransaction()
                 fragmentTransaction12.replace(R.id.containerView, ProductG_Fragment_Main_Static())

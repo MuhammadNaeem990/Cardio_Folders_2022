@@ -169,16 +169,7 @@ class ProductG_Fragment_page_One  //  String video = "android.resource://app.fol
 
 
 */
-        val animation_background = AnimationUtils.loadAnimation(context, R.anim.fade_in_one_sec)
-        val animation_image1 = AnimationUtils.loadAnimation(context, R.anim.zoom_in_one_sec)
-        val animation_image2 = AnimationUtils.loadAnimation(context, R.anim.zoom_in_two_sec)
-        val animation_image3 = AnimationUtils.loadAnimation(context, R.anim.blink_half_sec)
-        val animation_image4 = AnimationUtils.loadAnimation(context, R.anim.blink_one_sec)
-        image_background!!.startAnimation(animation_background)
-        image1!!.startAnimation(animation_image1)
-        image2!!.startAnimation(animation_image2)
-        image3!!.startAnimation(animation_image3)
-        image4!!.startAnimation(animation_image4)
+
         return view
     }
 }

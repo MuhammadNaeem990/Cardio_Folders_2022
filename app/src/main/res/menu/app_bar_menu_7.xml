@@ -19,14 +19,10 @@
         android:id="@+id/product_G_page4"
         android:title="Page 4"
         app:showAsAction="never" />
-    <item
-        android:id="@+id/product_G_page5"
-        android:title="Page 5 "
-        app:showAsAction="never" />
 
     <item
         android:id="@+id/product_G_Complete"
-        android:title="Complete Bunail"
+        android:title="Complete Ogrel"
         app:showAsAction="never" />
 
 

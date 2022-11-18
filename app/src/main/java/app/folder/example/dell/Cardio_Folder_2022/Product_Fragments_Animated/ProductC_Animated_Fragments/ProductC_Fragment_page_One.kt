@@ -1,5 +1,7 @@
 package app.folder.example.dell.Cardio_Folder_2022.Product_Fragments_Animated.ProductC_Animated_Fragments
 
+import android.graphics.Color
+import android.net.Uri
 import android.os.Bundle
 import android.support.constraint.ConstraintLayout
 import android.support.v4.app.Fragment
@@ -32,11 +34,11 @@ class ProductC_Fragment_page_One : Fragment() {
         val view = inflater.inflate(R.layout.product_c_fragment_page_1, container, false)
 
 
-     /*   val path = "android.resource://"+ requireActivity().packageName + "/" + R.raw.aloc_title_video
+        val path = "android.resource://"+ requireActivity().packageName + "/" + R.raw.caloc_video
 
         val uri = Uri.parse(path)
 
-        val videoView = view.findViewById<View>(R.id.aloc_video) as VideoView
+        val videoView = view.findViewById<View>(R.id.caloc_video) as VideoView
 
         with(videoView)
         {
@@ -46,7 +48,7 @@ class ProductC_Fragment_page_One : Fragment() {
             setZOrderOnTop(true)
             setOnPreparedListener { mp -> mp.isLooping = true }
             start()
-        }*/
+        }
         return view
     }
 }

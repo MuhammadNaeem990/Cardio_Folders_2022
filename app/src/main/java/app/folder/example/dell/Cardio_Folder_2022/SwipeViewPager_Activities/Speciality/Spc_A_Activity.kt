@@ -60,10 +60,12 @@ class Spc_A_Activity : AppCompatActivity() {
 
         models?.add(Model(R.drawable.boschempa_page1_image1, R.drawable.boschempa_title_text, "  "))
         models?.add(Model(R.drawable.rova_page1, R.drawable.rova_title_text, "  "))
-        models?.add(Model(R.drawable.rova_page1, R.drawable.cebosch_title_text, "  "))
+        models?.add(Model(R.drawable.caloc_pg1, R.drawable.cebosch_title_text, "  "))
         models?.add(Model(R.drawable.corace_page1, R.drawable.corace_title_text, "  "))
         models?.add(Model(R.drawable.orva_page1, R.drawable.orva_title_text, "  "))
-       // models?.add(Model(R.drawable.ovita_page1_image1, R.drawable.ovita_title_text, "  "))
+        models?.add(Model(R.drawable.rabosh_page1, R.drawable.rabosh_title_text, "  "))
+        models?.add(Model(R.drawable.ogrel_page1, R.drawable.ogrel_title_text, "  "))
+        models?.add(Model(R.drawable.ogrel_plus_page1, R.drawable.ogrel_title_text, "  "))
 
         adapterAgg_A = Adapter_Spc_A(models as ArrayList<Model>, this)
         viewPager = findViewById(R.id.viewPager)

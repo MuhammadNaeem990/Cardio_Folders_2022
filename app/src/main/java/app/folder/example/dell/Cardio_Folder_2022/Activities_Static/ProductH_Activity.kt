@@ -142,38 +142,7 @@ class ProductH_Activity : AppCompatActivity() {
                 ).commit()
                 true
             }
-            R.id.product_H_page5 -> {
-                val fragmentTransaction5 = FM!!.beginTransaction()
-                fragmentTransaction5.replace(
-                    R.id.containerView,
-                    ProductH_Fragment_page_Five()
-                ).commit()
-                true
-            }
-            R.id.product_H_page6 -> {
-                val fragmentTransaction6 = FM!!.beginTransaction()
-                fragmentTransaction6.replace(
-                    R.id.containerView,
-                    ProductH_Fragment_page_Six()
-                ).commit()
-                true
-            }
-            R.id.product_H_page7 -> {
-                val fragmentTransaction7 = FM!!.beginTransaction()
-                fragmentTransaction7.replace(
-                    R.id.containerView,
-                    ProductH_Fragment_page_Seven()
-                ).commit()
-                true
-            }
-            R.id.product_H_page8 -> {
-                val fragmentTransaction8 = FM!!.beginTransaction()
-                fragmentTransaction8.replace(
-                    R.id.containerView,
-                    ProductH_Fragment_page_Eight()
-                ).commit()
-                true
-            }
+
             R.id.product_H_Complete -> {
                 val fragmentTransaction10 = FM!!.beginTransaction()
                 fragmentTransaction10.replace(R.id.containerView, ProductH_Fragment_Main_Static())

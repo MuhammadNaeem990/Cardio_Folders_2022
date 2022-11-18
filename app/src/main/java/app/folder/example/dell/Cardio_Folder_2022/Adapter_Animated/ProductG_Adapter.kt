@@ -12,13 +12,13 @@ class ProductG_Adapter(fm: FragmentManager?) : FragmentStatePagerAdapter(fm) {
             1 -> return ProductG_Fragment_page_Two()
             2 -> return ProductG_Fragment_page_Three()
             3 -> return ProductG_Fragment_page_Four()
-            4 -> return ProductG_Fragment_page_Five()
+
         }
         return null
     }
 
     override fun getCount(): Int {
-        return 5
+        return 4
     }
 
     override fun getPageTitle(position: Int): CharSequence? {

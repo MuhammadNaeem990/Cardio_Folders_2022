@@ -142,46 +142,7 @@ class ProductF_Activity : AppCompatActivity() {
                 ).commit()
                 true
             }
-            R.id.product_F_page5 -> {
-                val fragmentTransaction5 = FM!!.beginTransaction()
-                fragmentTransaction5.replace(
-                    R.id.containerView,
-                    ProductF_Fragment_page_Five()
-                ).commit()
-                true
-            }
-            R.id.product_F_page6 -> {
-                val fragmentTransaction6 = FM!!.beginTransaction()
-                fragmentTransaction6.replace(
-                    R.id.containerView,
-                    ProductF_Fragment_page_Six()
-                ).commit()
-                true
-            }
-            R.id.product_F_page7 -> {
-                val fragmentTransaction7 = FM!!.beginTransaction()
-                fragmentTransaction7.replace(
-                    R.id.containerView,
-                    ProductF_Fragment_page_Seven()
-                ).commit()
-                true
-            }
-            R.id.product_F_page8 -> {
-                val fragmentTransaction8 = FM!!.beginTransaction()
-                fragmentTransaction8.replace(
-                    R.id.containerView,
-                    ProductF_Fragment_page_Eight()
-                ).commit()
-                true
-            }
-            R.id.product_F_page9 -> {
-                val fragmentTransaction9 = FM!!.beginTransaction()
-                fragmentTransaction9.replace(
-                    R.id.containerView,
-                    ProductF_Fragment_page_Nine()
-                ).commit()
-                true
-            }
+
             R.id.product_F_Complete -> {
                 val fragmentTransaction13 = FM!!.beginTransaction()
                 fragmentTransaction13.replace(R.id.containerView, ProductF_Fragment_Main_Static())

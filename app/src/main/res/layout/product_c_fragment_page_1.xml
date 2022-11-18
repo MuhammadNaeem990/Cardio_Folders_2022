@@ -11,7 +11,7 @@
     tools:context="Product_Fragments_Animated.ProductC_Animated_Fragments.ProductC_Fragment_page_One">
 
      <!-- <ImageView
-          android:id="@+id/somelinz_title_folder"
+           android:id="@+id/caloc_video"
           android:layout_width="match_parent"
           android:layout_height="match_parent"
           android:scaleType="fitXY"
@@ -21,8 +21,8 @@
           app:layout_constraintStart_toStartOf="parent"
           app:layout_constraintTop_toTopOf="parent" />-->
 
-  <!--<VideoView
-      android:id="@+id/aloc_video"
+  <VideoView
+      android:id="@+id/caloc_video"
       android:layout_width="0dp"
       android:layout_height="0dp"
       android:layout_alignParentLeft="true"
@@ -33,7 +33,7 @@
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent"  />-->
+      app:layout_constraintTop_toTopOf="parent"  />
 
 </android.support.constraint.ConstraintLayout>
 
