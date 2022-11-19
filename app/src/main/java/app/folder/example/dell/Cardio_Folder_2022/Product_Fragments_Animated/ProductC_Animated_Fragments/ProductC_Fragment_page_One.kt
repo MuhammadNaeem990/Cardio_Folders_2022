@@ -33,7 +33,6 @@ class ProductC_Fragment_page_One : Fragment() {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.product_c_fragment_page_1, container, false)
 
-
         val path = "android.resource://"+ requireActivity().packageName + "/" + R.raw.caloc_video
 
         val uri = Uri.parse(path)

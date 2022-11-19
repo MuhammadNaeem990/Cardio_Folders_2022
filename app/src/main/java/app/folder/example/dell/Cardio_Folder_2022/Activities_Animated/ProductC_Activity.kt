@@ -156,6 +156,22 @@ class ProductC_Activity : AppCompatActivity() {
                 ).commit()
                 true
             }
+            R.id.product_C_page7 -> {
+                val fragmentTransaction7 = FM!!.beginTransaction()
+                fragmentTransaction7.replace(
+                    R.id.containerView,
+                    ProductC_Fragment_page_Seven()
+                ).commit()
+                true
+            }
+            R.id.product_C_page8 -> {
+                val fragmentTransaction8 = FM!!.beginTransaction()
+                fragmentTransaction8.replace(
+                    R.id.containerView,
+                    ProductC_Fragment_page_Eight()
+                ).commit()
+                true
+            }
 
             R.id.product_C_Complete -> {
                 val fragmentTransaction11 = FM!!.beginTransaction()
