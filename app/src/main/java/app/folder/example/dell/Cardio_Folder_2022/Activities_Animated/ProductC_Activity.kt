@@ -16,7 +16,6 @@ import app.folder.example.dell.Cardio_Folder_2022.Main_Fragment_Animated.Product
 import app.folder.example.dell.Cardio_Folder_2022.Product_Fragments_Animated.ProductC_Animated_Fragments.*
 import app.folder.example.dell.Cardio_Folder_2022.R
 
-
 class ProductC_Activity : AppCompatActivity() {
     var drawerLayout: DrawerLayout? = null
     var navigationView: NavigationView? = null

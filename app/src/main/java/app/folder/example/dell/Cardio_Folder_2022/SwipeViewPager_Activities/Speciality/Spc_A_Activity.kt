@@ -60,7 +60,7 @@ class Spc_A_Activity : AppCompatActivity() {
 
         models?.add(Model(R.drawable.boschempa_page1_image1, R.drawable.boschempa_title_text, "  "))
         models?.add(Model(R.drawable.rova_page1, R.drawable.rova_title_text, "  "))
-        models?.add(Model(R.drawable.caloc_pg1, R.drawable.cebosch_title_text, "  "))
+        models?.add(Model(R.drawable.caloc_pg1, R.drawable.caloc_title_text, "  "))
         models?.add(Model(R.drawable.corace_page1, R.drawable.corace_title_text, "  "))
         models?.add(Model(R.drawable.orva_page1, R.drawable.orva_title_text, "  "))
         models?.add(Model(R.drawable.rabosh_page1, R.drawable.rabosh_title_text, "  "))
@@ -77,7 +77,10 @@ class Spc_A_Activity : AppCompatActivity() {
             resources.getColor(R.color.color2),
             resources.getColor(R.color.color3),
             resources.getColor(R.color.color4),
-            resources.getColor(R.color.color5)
+            resources.getColor(R.color.color5),
+            resources.getColor(R.color.color6),
+            resources.getColor(R.color.color7),
+            resources.getColor(R.color.color8)
 
         )
         colors = colors_temp

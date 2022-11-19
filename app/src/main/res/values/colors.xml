@@ -12,14 +12,12 @@
     <color name="black">#000000</color>
     <color name="transparent">#00000000</color>
 
-
     <!-- colors for button style -->
 
     <color name="gradient_start_color">#4c84ff</color>
     <color name="gradient_end_color">#18a3fe</color>
 
-
-    <!-- colors for tab and screent text -->
+    <!-- colors for tab and screen text -->
 
     <color name="tab_indicator_gray">#c0c0c0</color>
     <color name="intro_title_color">#000000</color>
@@ -27,7 +25,7 @@
 
     <color name="ProductA_color">#01050E</color> <!--Qumic-->
     <color name="ProductB_color">#0C4DA2</color> <!--Qzon-->
-    <color name="ProductC_color">#11577A</color>  <!--Beasy-->
+    <color name="ProductC_color">#009AD9</color>  <!--Beasy-->
 
     <color name="ProductD_color">#70BE43</color>  <!--Zentro-->
     <color name="ProductE_color">#762182 </color>
@@ -46,16 +44,15 @@
     <color name="ProductL_color">#116559</color>  <!--cilapen old-->
     <color name="ProductM_color">#02649B</color>  <!--Boschofen-->
 
-
     <color name="color1">#a3e5c8</color><!--d191c6-->
-    <color name="color2">#0C4DA2</color>
-    <color name="color3">#85becc</color>
+    <color name="color2">#28c0ff</color>
+    <color name="color3">#28c0ff</color>
 
-    <color name="color4">#9AD2E7</color>
-    <color name="color5">#E6488D</color>
-    <color name="color6">#0C4DA2</color>
-    <color name="color7">#4C81BD</color>
-    <color name="color8">#EAEBE7</color>
+    <color name="color4">#9cd37d</color>
+    <color name="color5">#ae32c1</color>
+    <color name="color6">#30c1ff</color>
+    <color name="color7">#e35459</color>
+    <color name="color8">#f592b1</color>
 
     <color name="color9">#1DA789</color>
     <color name="color10">#2B3794</color>
@@ -66,9 +63,5 @@
 
     <color name="tabtextcolor">#fff</color>
     <color name="tabindicatorcolor">#2d2d2d</color>
-
-
-
-
 
 </resources>

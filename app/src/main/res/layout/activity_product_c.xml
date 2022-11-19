@@ -8,13 +8,12 @@
     android:layout_height="match_parent"
     tools:context=".Activities_Animated.ProductC_Activity">
 
-
     <android.support.v7.widget.Toolbar
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="27dp"
-        android:background="#11577A"
+        android:background="#009AD9"
         android:id="@+id/toolbar"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:popupTheme="@style/ProductC_optionsMenu"
