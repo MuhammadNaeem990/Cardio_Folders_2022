@@ -10,6 +10,7 @@
     android:id="@+id/boschempa_page2"
     tools:context="Product_Fragments_Animated.ProductA_Animated_Fragments.ProductA_Fragment_page_Two">
 
+
     <ImageView
         android:id="@+id/vinjec_id_page2_image1"
         android:layout_width="match_parent"
